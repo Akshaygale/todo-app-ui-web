@@ -1,0 +1,95 @@
+/* BLUR BOX FROM LINE 5 TO 55 */
+.blur-box{
+    filter: blur(7px);
+}
+.homepage{
+    margin: 100px 300px 200px 300px ;
+}
+/* HEADING SECTION */
+.heading{
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 1.1fr 5.5fr 0.8fr 3fr;
+}
+.word-task{
+    font-weight: bolder;
+}
+.word-list{
+    font-weight: lighter;
+    color: grey;
+}
+.word-addlist{
+    color: grey;
+    font-size:35px;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+/* 3 BOX SECTION */
+.container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+.box-heading{
+    text-align: center;
+    color: lightcoral;
+    font-size: x-large;
+    padding: 20px 5px 0px 5px;
+    line-height: 48px;
+}
+.hr-line-heading{
+    margin-left: 40px;
+}
+.box{
+    border: 2px solid lightcoral;
+    height: 300px;
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 12px;
+    font-size: x-large;
+    box-shadow: 6px 6px 10px gray;
+}
+.anchorlink{
+    text-decoration: none;
+}
+.line-through-word{
+    margin: 40px 10px 10px 0px;
+    text-decoration: line-through red;
+    color: red;
+    text-align: right;
+    margin-bottom: 20px;
+}
+/*  MAIN BOX */
+.main-box{
+    border: 2px solid crimson;
+    color: crimson;
+    background: whitesmoke;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    z-index: 1;
+    box-shadow: 6px 6px 10px gray;
+}
+.word{
+    margin: 10px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.space{
+    border: 1px solid red;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px; 
+}
+.submit-button{
+    font-size: x-large;
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    color: white;
+    background:brown;
+}
